@@ -56,8 +56,8 @@ jobs:
       - name: Build site
         env:
           NAVFOLIO_CONTENT_SOURCE: docs
-          SITE_URL: https://astro.navfolio.site
-          SITE_BASE: /
+          SITE_URL: https://ranmengjia.github.io
+          SITE_BASE: /astro-navfolio
           NAVFOLIO_COMMENTS_ENABLED: ${{ vars.NAVFOLIO_COMMENTS_ENABLED }}
           NAVFOLIO_COMMENTS_PROVIDER: ${{ vars.NAVFOLIO_COMMENTS_PROVIDER }}
           NAVFOLIO_GISCUS_REPO: ${{ vars.NAVFOLIO_GISCUS_REPO }}
