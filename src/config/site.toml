@@ -1,10 +1,10 @@
 [config.site]
-title = "navfolio"
-description = "A personal navigation portfolio starter built with Astro."
+title = "冉梦佳"
+description = "冉梦佳的个人博客与作品集"
 pageTitle = "navfolio | Digital Publication Space"
 pageDescription = "A calm AI-native personal publication space for notes, links, and writing."
-url = "https://astro.navfolio.site"
-repository = "https://github.com/dodolalorc/astro-navfolio"
+url = "https://ranmengjia.github.io/astro-navfolio/"
+repository = "https://github.com/ranmengjia/astro-navfolio"
 footerNote = "Released as an open-source starter."
 
 [config.theme]
@@ -118,13 +118,13 @@ pageview = true
 comment = true
 
 [config.profile]
-name = "navfolio"
-handle = "@navfolio"
-role = "A Cat Developer"
-email = "hello@navfolio.site"
-website = "https://astro.navfolio.site/"
-github = "https://github.com/dodolalorc/astro-navfolio"
-avatar = "/images/logo-thin.webp"
+name = "冉梦佳"
+handle = "@ranmengjia"
+role = "Student & Developer"
+email = "2700411138@qq.com"
+website = "https://ranmengjia.github.io/astro-navfolio/"
+github = "https://github.com/ranmengjia/astro-navfolio"
+avatar = "/images/avatar.png"
 
 [[config.topNav.links]]
 label = "Home"
@@ -154,21 +154,21 @@ href = "/about"
 
 [config.home.quote]
 text = [
-  "Navigate your world,",
-  "Showcase your story,",
-  "and keep everything in one place.",
+  "Learn,",
+  "Create,",
+  "and keep growing.",
 ]
 
 [config.home.intro]
-title = "here is navfolio"
-name = "navfolio"
+title = "Hi, I'm"
+name = "冉梦佳"
 body = [
-  "The name combines \"Navigation\" and \"Portfolio\".",
-  "Navfolio prioritizes lightweight organization, seamless reading, and developer-friendly aesthetics.",
-  "It’s less a resume than a personal OS for your ideas, projects, notes, and online presence.",
-  "这个名字融合了“导航”与“作品集”。",
-  "Navfolio 专注于轻量级组织、流畅的阅读体验，以及对开发者友好的美学设计。",
-  "它不像一份简历，更像是一个属于你自己的个人操作系统——承载想法、项目、笔记与网络足迹。",
+  "Welcome to my little corner of the internet.",
+  "I'm a student who enjoys learning, coding, and exploring new ideas.",
+  "Here I keep my notes, projects, thoughts, and things I find interesting.",
+  "这里是我的个人空间。",
+  "我喜欢学习、写代码，也喜欢记录生活中遇到的新鲜事物。",
+  "希望在这里留下学习和成长的足迹，也分享一些有趣的想法与作品。",
 ]
 
 [config.home.latest]
@@ -181,44 +181,32 @@ dateArchiveBaseHref = ""
 
 [[config.home.navigation]]
 icon = "compass"
-title = "Portfolio"
-subtitle = "Selected work and case studies"
-href = "https://astro.navfolio.site/"
+title = "About Me"
+subtitle = "了解我和我的故事"
+href = "/about"
 
 [[config.home.navigation]]
 icon = "pen"
 title = "Blog"
-subtitle = "Essays, notes, and field reports"
+subtitle = "我的学习笔记与日常记录"
 href = "/blog"
 
 [[config.home.navigation]]
 icon = "briefcase"
-title = "Resume"
-subtitle = "Career profile and experience"
-href = "https://github.com/dodolalorc/navfolio"
+title = "Projects"
+subtitle = "我做过的一些项目"
+href = "/projects"
 
 [[config.home.navigation]]
 icon = "github"
-title = "Open Source"
-subtitle = "Code, experiments, and tools"
-href = "https://github.com/dodolalorc/astro-navfolio"
+title = "GitHub"
+subtitle = "代码、实验与学习记录"
+href = "https://github.com/ranmengjia/astro-navfolio"
 
 [[config.home.links]]
 label = "GitHub"
 icon = "github"
-tooltip = "https://github.com/dodolalorc/astro-navfolio"
-copy = false
-
-[[config.home.links]]
-label = "LinkedIn"
-icon = "linkedin"
-tooltip = "https://www.linkedin.com/"
-copy = false
-
-[[config.home.links]]
-label = "X"
-icon = "x"
-tooltip = "" # 留空会隐藏这个链接项。
+tooltip = "https://github.com/ranmengjia/astro-navfolio"
 copy = false
 
 [[config.home.links]]
@@ -226,65 +214,22 @@ label = "RSS"
 icon = "rss"
 tooltip = "/rss.xml"
 copy = false
-
-[[config.home.links]]
-label = "Email"
-icon = "mail"
-tooltip = "hello@navfolio.site"
-copy = true
-
-[[config.home.links]]
-label = "QQ"
-icon = "qq"
-tooltip = "123456789"
-copy = true
-
-[[config.home.links]]
-label = "WeChat"
-icon = "wechat"
-tooltip = "navfolio"
-copy = true
-
-[[config.home.links]]
-label = "Weibo"
-icon = "weibo"
-tooltip = "https://weibo.com/"
-copy = false
-
-[[config.home.links]]
-label = "Xiaohongshu"
-icon = "xiaohongshu"
-tooltip = "https://www.xiaohongshu.com/"
-copy = false
-
-[[config.home.links]]
-label = "Zhihu"
-icon = "zhihu"
-tooltip = "https://www.zhihu.com/"
-copy = false
-
-[[config.home.links]]
-label = "Bilibili"
-icon = "bilibili"
-tooltip = "https://www.bilibili.com/"
-copy = false
-
 [[config.home.doing]]
-text = "Shipping a personal dashboard template"
+text = "Learning Python and programming"
 mark = "01"
 
 [[config.home.doing]]
-text = "Writing reusable notes for future projects"
+text = "Building my personal blog"
 mark = "02"
 
 [[config.home.doing]]
-text = "Improving static-site publishing workflow"
+text = "Exploring interesting technologies"
 mark = "03"
 
 [[config.home.doing]]
-text = "Collecting useful developer resources"
+text = "Recording my learning notes"
 mark = "04"
 
 [[config.home.doing]]
-text = "Exploring small open-source ideas"
+text = "Working on small personal projects"
 mark = "05"
