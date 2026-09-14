@@ -64,8 +64,8 @@ const resolvedBase =
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://ranmengjia.github.io',
-  base: '/',
+  site: resolvedSite,
+  base: resolvedBase,
   markdown: {
     remarkPlugins: astroPluginConfig.remarkPlugins,
     rehypePlugins: astroPluginConfig.rehypePlugins,
