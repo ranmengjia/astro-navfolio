@@ -124,7 +124,7 @@ role = "Student & Developer"
 email = "2700411138@qq.com"
 website = "https://ranmengjia.github.io/astro-navfolio/"
 github = "https://github.com/ranmengjia/astro-navfolio"
-avatar = "/images/avatar.png"
+avatar = "/images/avatar.webp"
 
 [[config.topNav.links]]
 label = "Home"
