@@ -61,7 +61,7 @@ jobs:
           NAVFOLIO_GISCUS_REPO_ID: ${{ vars.NAVFOLIO_GISCUS_REPO_ID }}
           NAVFOLIO_GISCUS_CATEGORY: ${{ vars.NAVFOLIO_GISCUS_CATEGORY }}
           NAVFOLIO_GISCUS_CATEGORY_ID: ${{ vars.NAVFOLIO_GISCUS_CATEGORY_ID }}
-        run: bun run docs:build
+        run: bun run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
