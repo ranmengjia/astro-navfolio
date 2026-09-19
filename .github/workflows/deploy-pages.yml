@@ -38,9 +38,6 @@ jobs:
       - name: Install dependencies
         run: bun install --frozen-lockfile
 
-      - name: Ensure docs submodule is available
-        run: git submodule update --init --recursive --remote
-
       - name: Sync friend circle
         if: ${{ vars.NAVFOLIO_FRIEND_CIRCLE_ENABLED == 'true' && vars.NAVFOLIO_FRIEND_LINKS_SRC != '' }}
         uses: navfolio/friend-circle-sync@main
@@ -55,7 +52,7 @@ jobs:
 
       - name: Build site
         env:
-          NAVFOLIO_CONTENT_SOURCE: docs
+          NAVFOLIO_CONTENT_SOURCE: content
           SITE_URL: https://ranmengjia.github.io
           SITE_BASE: /astro-navfolio
           NAVFOLIO_COMMENTS_ENABLED: ${{ vars.NAVFOLIO_COMMENTS_ENABLED }}
