@@ -34,7 +34,7 @@ print(f"修改前: {s}")
 
 s = s + " world"
 print(f"修改后: {s}")
-# 输出结果：hello world
+# 输出结果：hello world。
 ```
 
 你看，`s` 的内容明明从 `"hello"` 变成了 `"hello world"`，为什么很多教程里非要说 **Python 的字符串是不可变对象 (Immutable)** 呢？这不是自相矛盾吗？
