@@ -1,7 +1,7 @@
 ---
 title: "Linux & Shell 学习周记：彻底摆脱 Windows 惯性，建立开发者系统思维"
 description: "很多人学 Linux 学不进去，不是命令太难，而是被多年 Windows 使用习惯'惯坏了'。本周深入学习 Linux 基础与 Shell 命令，我完成了从普通用户图形化思维到开发者可控、透明、自动化系统思维的完整转型。"
-date: "2026-09-26"
+date: "2026-09-28"
 tags: ["Linux", "Shell", "操作系统", "学习笔记", "思维转变"]
 categories: ["入门"]
 ---
