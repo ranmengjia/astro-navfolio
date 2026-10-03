@@ -1,9 +1,12 @@
 ---
-title: "Python 避坑指南：透过现象看本质"
-description: "一篇文章搞懂 Python 里的可变对象、字典的键和变量引用，彻底告别新手陷阱。"
-date: "2026-09-18"
-tags: ["Python", "基础语法", "学习笔记"]
-categories: ["入门"]
+title: Python 避坑指南：透过现象看本质——变量、对象与引用的"三角关系"
+description: 一篇文章搞懂 Python 里的可变对象、字典的键和变量引用，彻底告别新手陷阱。
+date: 2026-09-18
+tags:
+  - Python
+  - 基础语法
+  - 学习笔记
+categories: 入门
 ---
 
 # Python 避坑指南：透过现象看本质——变量、对象与引用的"三角关系"
