@@ -1,11 +1,11 @@
 [config.site]
 title = "冉梦佳"
 description = "冉梦佳的个人博客与作品集"
-pageTitle = "navfolio | Digital Publication Space"
-pageDescription = "A calm AI-native personal publication space for notes, links, and writing."
-url = "https://ranmengjia.github.io/astro-navfolio/"
-repository = "https://github.com/ranmengjia/astro-navfolio"
-footerNote = "Released as an open-source starter."
+pageTitle = "冉梦佳 | 个人空间"
+pageDescription = "冉梦佳的个人博客与作品集"
+url = "https://ranmengjia.github.io/"
+repository = "https://github.com/ranmengjia/ranmengjia.github.io"
+footerNote = "© 2026 冉梦佳 · 基于 Astro 构建"
 
 [config.theme]
 # 可用色盘：
@@ -43,7 +43,7 @@ show_on_posts = true
 [config.search]
 enabled = true
 shortcut = "mod+k"
-placeholder = "Search notes..."
+placeholder = "搜索文章..."
 maxResults = 6
 
 [config.pages.blog]
@@ -122,8 +122,8 @@ name = "冉梦佳"
 handle = "@ranmengjia"
 role = "Student & Developer"
 email = "2700411138@qq.com"
-website = "https://ranmengjia.github.io/astro-navfolio/"
-github = "https://github.com/ranmengjia/astro-navfolio"
+website = "https://ranmengjia.github.io/"
+github = "https://github.com/ranmengjia"
 avatar = "/images/avatar.webp"
 
 [[config.topNav.links]]
@@ -201,12 +201,12 @@ href = "/projects"
 icon = "github"
 title = "GitHub"
 subtitle = "代码、实验与学习记录"
-href = "https://github.com/ranmengjia/astro-navfolio"
+href = "https://github.com/ranmengjia/ranmengjia.github.io"
 
 [[config.home.links]]
 label = "GitHub"
 icon = "github"
-tooltip = "https://github.com/ranmengjia/astro-navfolio"
+tooltip = "https://github.com/ranmengjia/ranmengjia.github.io"
 copy = false
 
 [[config.home.links]]
